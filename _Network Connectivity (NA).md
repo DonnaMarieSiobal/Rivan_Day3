@@ -1613,10 +1613,10 @@ conf t
   router-id 1.1.1.1
   exit
  int lo1
-  ip ospf 1 area 0
+  ip ospf 1 area 12
   exit
  int e1/0
-  ip ospf 1 area 0
+  ip ospf 1 area 12
   end
 ~~~
 
